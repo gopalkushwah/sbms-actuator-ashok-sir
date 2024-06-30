@@ -31,8 +31,9 @@ Spring Boot Actuator exposes several endpoints that you can use to monitor and m
 - **/actuator/httptrace**: Displays HTTP trace information.
 
 
-### to enable all the actuators end points
+
 ```
+- to enable all the actuators end points
 management:
   endpoints:
     web:
