@@ -1,0 +1,16 @@
+
+# to enable all the actuators end points
+management:
+  endpoints:
+    web:
+      exposure:   
+        include: '*'   #to include all the 13 endpoints
+        exclude:
+        - beans     # excluding beans endpoint
+  # enabling shutdown hook, the default value is false
+  endpoint:
+    shutdown:
+      enabled: true
+spring:
+  application:
+    name: SBMS_Actuator
