@@ -25,10 +25,10 @@ To use Spring Boot Actuator, you need to add the dependency to your `pom.xml` fi
 ## Endpoints
 Spring Boot Actuator exposes several endpoints that you can use to monitor and manage your application. Some of the most commonly used endpoints are:
 
-**/actuator/health**: Displays the health status of the application.
-**/actuator/info**: Provides information about the application.
-**/actuator/metrics**: Shows various metrics collected by the application.
-**/actuator/httptrace**: Displays HTTP trace information.
+- **/actuator/health**: Displays the health status of the application.
+- **/actuator/info**: Provides information about the application.
+- **/actuator/metrics**: Shows various metrics collected by the application.
+- **/actuator/httptrace**: Displays HTTP trace information.
 
 
 ### to enable all the actuators end points
